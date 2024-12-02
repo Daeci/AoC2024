@@ -10,7 +10,7 @@ namespace AoC2024.Days
     public static class Day1
     {
         /*
-         * Given a text file of 2 rows of numbers, sort each row from smallest to largest
+         * Given a text file of 2 columns of numbers, sort each column from smallest to largest
          * then map each index to each other and determine the difference and add all
          * the differences up to get the final result.
          */
@@ -42,7 +42,9 @@ namespace AoC2024.Days
         }
 
         /*
-         * 
+         * Find all instances of numbers in the right column that equal each index in the
+         * left column. Multiply that amount of instances with the left column number and
+         * add all the results up.
          */
         public static int SecondPuzzle()
         {
